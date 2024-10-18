@@ -1,23 +1,24 @@
 ---
-title: 'An example conference paper'
+title: 'Context-Aware Task Execution Using Apprenticeship Learning'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
-  - Robert Ford
+  - Ahmed Abdelrahman
+  - Alex Mitrevski
+  - Paul G. Plöger
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+# # Author notes (optional)
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
-doi: ''
+date: '2020-09-15'
+doi: 'https://doi.org/10.1109/ICRA40945.2020.9197476'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2020-09-15'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,16 +26,18 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *2020 IEEE International Conference on Robotics and Automation (ICRA)*
+publication_short: In *ICRA 2020*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: An essential measure of autonomy in assistive service robots is adaptivity to the various contexts of human-oriented tasks, which are subject to subtle variations in task parameters that determine optimal behaviour. In this work, we propose an apprenticeship learning approach to achieving context-aware action generalization on the task of robot-to-human object hand-over. The procedure combines learning from demonstration and reinforcement learning: a robot first imitates a demonstrator's execution of the task and then learns contextualized variants of the demonstrated action through experience. We use dynamic movement primitives as compact motion representations, and a model-based C-REPS algorithm for learning policies that can specify hand-over position, conditioned on context variables. Policies are learned using simulated task executions, before transferring them to the robot and evaluating emergent behaviours. We additionally conduct a user study involving participants assuming different postures and receiving an object from a robot, which executes hand-overs by either imitating a demonstrated motion, or adapting its motion to hand-over positions suggested by the learned policy. The results confirm the hypothesized improvements in the robot's perceived behaviour when it is context-aware and adaptive, and provide useful insights that can inform future developments.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: In this work, we propose an apprenticeship learning approach to achieving context-aware action generalization on the task of robot-to-human object hand-over. Our results confirm the hypothesized improvements in the robot's perceived behaviour when it is context-aware and adaptive, and provide useful insights that can inform future developments.
 
 tags:
-  - Large Language Models
+  - Robot manipulation
+  - Reinforcement learning
+  - Dynamic motion primitives
 
 # Display this page in the Featured widget?
 featured: true
