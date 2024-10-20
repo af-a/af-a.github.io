@@ -34,7 +34,7 @@ sections:
     content:
       title: '📚 My Research'
       subtitle: ''
-      text: |-
+      text:
         My research primarily involves applications of machine learning to robotics and has recently focussed on biologically-inspired methods to learning and computation. I have been particularly interested in reinforcement learning, e.g. for [robot skill learning](https://ieeexplore.ieee.org/document/9197476), and neuromorphic computing methods, e.g. [utilizing neuromorphic cameras and spiking neural networks (SNNs) for robot obstacle avoidance](https://arxiv.org/abs/2404.05858).
 
         He hopes to investigate whether replicating biological principles could hold the key to significant advancements in robotic intelligence.
