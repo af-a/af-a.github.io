@@ -33,6 +33,7 @@ sections:
           # position: center
           position: right
           parallax: false
+          width: 200
   - block: markdown
     content:
       title: '📚 My Research'
