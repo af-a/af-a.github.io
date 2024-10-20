@@ -35,11 +35,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research primarily involves applications of machine learning to robotics and has recently focussed on biologically-inspired methods to learning and computation. I have been particularly interested in reinforcement learning, e.g. for [robot skill learning](https://ieeexplore.ieee.org/document/9197476), and neuromorphic computing methods, e.g. [utilizing neuromorphic cameras and spiking neural networks (SNNs) for robot obstacle avoidance](https://arxiv.org/abs/2404.05858).
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        He hopes to investigate whether replicating biological principles could hold the key to significant advancements in robotic intelligence.
+
+        A key focus of my doctoral research is building formal guarantees for safety and reliability into machine learning models that are deployed for robot control.
     design:
       columns: '1'
   - block: collection
