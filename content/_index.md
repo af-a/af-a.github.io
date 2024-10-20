@@ -28,19 +28,21 @@ sections:
           filename: IMG_3224.jpg
           filters:
             brightness: 1.0
-          size: cover
-          position: center
+          # size: cover
+          size: actual
+          # position: center
+          position: right
           parallax: false
   - block: markdown
     content:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        'My research primarily involves applications of machine learning to robotics and has recently focussed on biologically-inspired methods to learning and computation. I have been particularly interested in reinforcement learning, e.g. for [robot skill learning](https://ieeexplore.ieee.org/document/9197476), and neuromorphic computing methods, e.g. [utilizing neuromorphic cameras and spiking neural networks (SNNs) for robot obstacle avoidance](https://arxiv.org/abs/2404.05858).
+        My research primarily involves applications of machine learning to robotics and has recently focussed on biologically-inspired methods to learning and computation. I have been particularly interested in reinforcement learning, e.g. for [robot skill learning](https://ieeexplore.ieee.org/document/9197476), and neuromorphic computing methods, e.g. [utilizing neuromorphic cameras and spiking neural networks (SNNs) for robot obstacle avoidance](https://arxiv.org/abs/2404.05858).
 
         He hopes to investigate whether replicating biological principles could hold the key to significant advancements in robotic intelligence.
 
-        A key focus of my doctoral research is building formal guarantees for safety and reliability into machine learning models that are deployed for robot control.'
+        A key focus of my doctoral research is building formal guarantees for safety and reliability into machine learning models that are deployed for robot control.
     design:
       columns: '1'
   - block: collection
