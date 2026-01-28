@@ -1,43 +1,65 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: Repositories
+# description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
 nav: true
 nav_order: 4
 ---
 
+<style>
+  .repositories {
+    gap: 5px !important;
+  }
+
+  .repositories .repo {
+    flex: 1 1 48%;
+    margin-bottom: 8px !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  @media (max-width: 768px) {
+    .repositories .repo {
+      flex: 1 1 100%;
+    }
+  }
+</style>
+
 {% if site.data.repositories.github_users %}
 
-## GitHub users
+<!-- ## GitHub Users -->
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
+<!-- <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center"> -->
+<!--   {% for user in site.data.repositories.github_users %} -->
+<!--     {% include repository/repo_user.liquid username=user %} -->
+<!--   {% endfor %} -->
+<!-- </div> -->
+
+<!-- --- -->
+
+<!-- {% if site.repo_trophies.enabled %} -->
+<!-- {% for user in site.data.repositories.github_users %} -->
+<!-- {% if site.data.repositories.github_users.size > 1 %} -->
+
+<!--   <h4>{{ user }}</h4> -->
+<!--   {% endif %} -->
+<!--   <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center"> -->
+<!--   {% include repository/repo_trophies.liquid username=user %} -->
+<!--   </div> -->
+
+<!-- --- -->
+
+<!-- {% endfor %} -->
+<!-- {% endif %} -->
+<!-- {% endif %} -->
+
+<!-- {% if site.data.repositories.github_repos %} -->
+
 
 ---
 
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
+## Some GitHub Repositories
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
