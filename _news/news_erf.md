@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I attended [ERF 2025](https://erf2025.eu/) and presented my work, which was nominated for a best paper award. Learn more about the project [here](../projects/task_pose_estimation.html).
+I attended [ERF 2025](https://erf2025.eu/) and presented my work, which was nominated for a best paper award. Learn more about the project [here](/projects/task_pose_estimation.html).
