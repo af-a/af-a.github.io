@@ -47,6 +47,7 @@ For EMG classification, we utilized an ensemble of independent classifiers:
 * k-nearest Neighbours (kNNs)
 * Random Forests (RFs)
 * Multi-layer Perceptrons (MLPs)
+
 The classifiers were independently trained on the same dataset and a majority voting scheme was used at runtime to determine the most likely action intention to predict.
 
 The decoded grasping action is subsequently reproduced by an anthropomorphic hand on a Franka Panda robot; alternatively, the same hand could be attached to an upper-limb prosthesis. Here, we used a [Prensilia IH2 Azzurra hand](https://www.prensilia.com/ih2-azzurra-hand/), which was programmed to execute the considered motions.
