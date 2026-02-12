@@ -92,6 +92,6 @@ At each appropriate instance during the robot's execution, the user need only pe
 
 This project was an early milestone of my research into reliable neurorobotic motion control from biological signals. 
 The outcomes of this research can contribute to improving neuroprosthetic devices that can restore lost limb function as well as provide more intuitive manipulator control interfaces.
-Future work will focus on regression, rather than classification, methods in order to work towards continuous motion intention estimation for more a natural interface, in addition to incorporating neuromorphic methods to harness their power efficiency benefits and affinity to biological signal processing.
+Future work will focus on regression, rather than classification, methods in order to work towards continuous motion intention estimation for a more natural interface, in addition to incorporating neuromorphic methods to harness their power efficiency benefits and natural affinity to biological signal processing.
 
 <br>
