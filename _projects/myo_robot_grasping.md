@@ -19,7 +19,7 @@ During my research into intelligent neuroprosthetics, I demonstrated a form of _
     </div>
 </div>
 <div class="caption">
-    Representative applications: object pick-and-place (right) and cloth folding (left). Note: grasping/releasing actions are controlled by the user.
+    Representative applications: object pick-and-place (left) and cloth folding (right). Note: grasping/releasing actions are controlled by the user.
 </div>
 
 ------------------
